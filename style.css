@@ -1,0 +1,45 @@
+body {
+    background: #334E6C;
+    color: #DADFA4;
+}
+// Color each cell of the Table1
+table {
+    border-collapse: collapse;
+    width: 850px;
+    margin: auto;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  /* Change the background color of each cell */
+  td:nth-child(1) {
+    background-color: #98302F; 
+  }
+  
+  td:nth-child(2) {
+    background-color: #F85B34; 
+  }
+  
+  td:nth-child(3) {
+    background-color: #DADFA4; 
+  }
+  
+  td:nth-child(4) {
+    background-color: #B8D8B9;
+  }
+    .content-container {
+        width: 850px; 
+        margin: auto; 
+    }
+    table {
+        width: 100%; /* Make the table take full width of the container */
+        border-collapse: collapse;
+      }
+      
+      td {
+        border: 1px solid black;
+        padding: 8px;}
+        

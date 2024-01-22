@@ -1,45 +1,100 @@
 body {
-    background: #334E6C;
-    color: #DADFA4;
+  background: #334E6C;
+  color: #DADFA4;
+  font-family:'https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@100&family=Londrina+Shadow&family=Poller+One&family=Shadows+Into+Light&display=swap';
+  font-size: 1.25rem;
 }
-// Color each cell of the Table1
-table {
-    border-collapse: collapse;
-    width: 850px;
-    margin: auto;
-  }
-  
-  td {
-    border: 1px solid black;
-    padding: 8px;
-  }
-  
-  /* Change the background color of each cell */
-  td:nth-child(1) {
-    background-color: #98302F; 
-  }
-  
-  td:nth-child(2) {
-    background-color: #F85B34; 
-  }
-  
-  td:nth-child(3) {
-    background-color: #DADFA4; 
-  }
-  
-  td:nth-child(4) {
-    background-color: #B8D8B9;
-  }
-    .content-container {
-        width: 850px; 
-        margin: auto; 
-    }
-    table {
-        width: 100%; /* Make the table take full width of the container */
-        border-collapse: collapse;
-      }
-      
-      td {
-        border: 1px solid black;
-        padding: 8px;}
-        
+
+.question-container h3 {
+  font-size: 2rem;
+  padding-left: 15px;
+}
+
+h4 {
+  padding-left: 15px;
+}
+
+/* Color each cell of the Table1 */
+.color-table {
+  border-collapse: collapse;
+  width: 850px;
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Change the background color of each cell */
+
+/* Initial styling based on nth-child */
+.color-table td:nth-child(1) {
+  background-color: #98302F;
+  color: #98302F;
+}
+
+.color-table td:nth-child(2) {
+  background-color: #F85B34;
+  color: #F85B34;
+}
+
+.color-table td:nth-child(3) {
+  background-color: #DADFA4;
+  color: #DADFA4;
+}
+
+.color-table td:nth-child(4) {
+  background-color: #B8D8B9;
+  color: #B8D8B9;
+}
+
+/* Hover styles for individual td classes */
+.color-table td:hover {
+ color:#334E6C;
+}
+
+.painting-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.question-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the question and input field */
+h3, label, input, button {
+  margin-bottom: 10px;
+}
+#response {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+#response a{
+  text-decoration: underline;
+  color: white
+}
+
+
+/* Style for the button */
+button {
+  background-color: #F85B34;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.responseElement.innerHTML {
+  font-size: 4rem;
+}

@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>training-wheels</title>
-      </head>
-<body>
-    <h1>Hello World</h1>
-    <script src="script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>training-wheels</title>
+  </head>
+  <body>
+    <div class="question-container">
+      <h3>Music Pink and Blue II</h3>
+
+      <label question="userAnswer">Who is the Artist?</label>
+
+      <input
+        type="text"
+        id="userAnswer"
+        placeholder="First & Last Name"
+        onkeydown="handleKeyPress(event)"
+      />
+      <button onclick="askQuestion()">Submit Answer</button>
+      <!-- Display response here -->
+      <div id="response"></div>
+    </div>
+
+    <div class="painting-img">
+      <img src="source/music-ii.jpg" alt="Music Pink and Blue II" />
+    </div>
+
+    <div class="color-table">
+      <table>
+        <tr>
+          <td class="color1">#98302F</td>
+          <td class="color2">#F85B34</td>
+          <td class="color3">#DADFA4</td>
+          <td class="color4">#B8D8B9</td>
+        </tr>
+      </table>
+    </div>
 
     <h2>Site Goals</h2>
-
-  <ul>
-    <li>HTML Table</li>
-    <li>CSS Colors</li>
-    <li>JavaScript / Show Color hex</li>
-    <li>Fourth bullet point</li>
-  </ul>
-  <div class="content-container">
-    <img src="source/music-ii.jpg" alt="Music Pink and Blue II">
-    <table>
-    <tr>
-      <td>#98302F</td>
-      <td>#F85B34</td>
-      <td>#DADFA4</td>
-      <td>#B8D8B9</td>
-    </tr>
-  </table>
-  </div>
-</body>
+    <ul>
+      <li>HTML Table</li>
+      <li>CSS Colors</li>
+      <li>JavaScript / Show Color hex</li>
+      <li>If ...Else</li>
+      <li>Button</li>
+      <li>Hover</li>
+      <li>addEventListener</li>
+    </ul>
+  </body>
 </html>
